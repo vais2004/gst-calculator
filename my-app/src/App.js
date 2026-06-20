@@ -8,7 +8,7 @@ function App() {
 
   const calGST = () => {
     if (!amount || !gst) {
-      <p className="alert-danger">Please enter Amount and GST Percentage!</p>;
+      alert("Please enter Amount and GST Percentage!");
       return;
     }
 
@@ -64,6 +64,13 @@ function App() {
       <h5>Vaishnavi H. Kawale</h5>
 
       <p>vkawale2004@gmail.com</p>
+      <a
+        href="https://digitalheroesco.com"
+        target="_blank"
+        rel="noreferrer"
+        className="btn btn-dark mt-3">
+        Built for Digital Heroes
+      </a>
     </div>
   );
 }
